@@ -7,9 +7,7 @@
 ## Demo
 
 <details>
-    <summary>JSON</summary>
+  <summary>JSON</summary>
   
-    ### JSON
-
-    [![asciicast](https://asciinema.org/a/HyJQzbVGsZsyePCwt30b1McMf.svg)](https://asciinema.org/a/HyJQzbVGsZsyePCwt30b1McMf)
+  [![asciicast](https://asciinema.org/a/HyJQzbVGsZsyePCwt30b1McMf.svg)](https://asciinema.org/a/HyJQzbVGsZsyePCwt30b1McMf)
 </details>
