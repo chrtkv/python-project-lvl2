@@ -1,0 +1,21 @@
+name: tests
+
+on:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Run tests with pytest
+        run: |
+          pip install pytest
+          pip install poetry
+          make test
