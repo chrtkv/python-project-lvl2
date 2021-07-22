@@ -17,12 +17,11 @@ jobs:
       - name: Run tests with pytest
         run: |
           pip install pytest
+          pip install coverage
           pip install poetry
           make test
 
       - uses: paambaati/codeclimate-action@v2.7.5
-        run:
-          pip install coverage
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CODECLIMATE_TEST_REPORTER_ID }}
         with:
