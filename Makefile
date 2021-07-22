@@ -22,5 +22,6 @@ test:
 
 coverage:
 	poetry run coverage run -m pytest
+	poetry run coverage xml
 
 pinstall: build package-install
