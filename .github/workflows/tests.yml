@@ -21,6 +21,8 @@ jobs:
           make test
 
       - uses: paambaati/codeclimate-action@v2.7.5
+        run:
+          pip install coverage
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CODECLIMATE_TEST_REPORTER_ID }}
         with:
