@@ -20,4 +20,7 @@ lint:
 test:
 	poetry run pytest
 
+coverage:
+	poetry run coverage run -m pytest
+
 pinstall: build package-install
