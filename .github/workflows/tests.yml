@@ -19,12 +19,10 @@ jobs:
           pip install pytest
           pip install poetry
           make test
-  coverage:
-    needs: [ test ]
-    steps:
-    - uses: paambaati/codeclimate-action@v2.7.5
-      env:
-        CC_TEST_REPORTER_ID: ${{ secrets.CODECLIMATE_TEST_REPORTER_ID }}
-      with:
-        coverageCommand: make coverage
-        coverageLocations: ./.coverage
+
+      - uses: paambaati/codeclimate-action@v2.7.5
+        env:
+          CC_TEST_REPORTER_ID: ${{ secrets.CODECLIMATE_TEST_REPORTER_ID }}
+        with:
+          coverageCommand: make coverage
+          coverageLocations: ./.coverage
