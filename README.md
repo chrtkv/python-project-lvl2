@@ -14,3 +14,9 @@
   
   [![asciicast](https://asciinema.org/a/HyJQzbVGsZsyePCwt30b1McMf.svg)](https://asciinema.org/a/HyJQzbVGsZsyePCwt30b1McMf)
 </details>
+
+<details>
+  <summary>YAML</summary>
+  
+  [![asciicast](https://asciinema.org/a/SXes5zXdRQcTrrvISwgo27YfD.svg)](https://asciinema.org/a/SXes5zXdRQcTrrvISwgo27YfD)
+</details>
